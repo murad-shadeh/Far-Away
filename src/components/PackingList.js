@@ -36,12 +36,18 @@ const PackingList = ({
         ))}
       </ul>
       <div className="actions">
-        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+        <select
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value)}
+          className="filter-options"
+        >
           <option value="input">Sort by input order</option>
           <option value="description">Sort by description</option>
           <option value="packed">Sort by packed status</option>
         </select>
-        <button onClick={handleClearList}>Clear list</button>
+        <button onClick={handleClearList} className="clear-btn">
+          Clear list
+        </button>
       </div>
     </div>
   );

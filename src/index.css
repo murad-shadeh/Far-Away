@@ -130,3 +130,150 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
+@media screen and (max-width: 600px) {
+  .add-form {
+    display: inline-block;
+  }
+  h3 {
+    margin-right: 1.6rem;
+    font-size: 2.4rem;
+    text-align: center;
+    font-size: 20px;
+  }
+  h3,
+  select,
+  input {
+    margin: 5px;
+  }
+  input {
+    width: 40%;
+  }
+  .num-select {
+    width: 25%;
+  }
+  .form-btn {
+    display: inline-grid;
+  }
+
+  .clear-btn {
+    font-size: 11px !important;
+  }
+  .filter-options {
+    width: 60%;
+  }
+  .title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 15px !important;
+    margin-right: 5px;
+  }
+  .title {
+    font-size: 70px;
+  }
+}
+@media (max-width: 820px) {
+  h3 {
+    font-size: 15px !important;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 912px) {
+  h3 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 540px) {
+  .title {
+    font-size: 30px;
+  }
+  .num-select {
+    margin-left: 30px !important;
+  }
+}
+@media (max-width: 280px) {
+  .title {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 15px !important;
+  }
+  .num-select {
+    width: 35%;
+  }
+  /* .form-btn {
+    margin-left: 28px;
+    width: 78%;
+  } */
+  .stats {
+    font-size: 20px;
+  }
+  .filter-options {
+    font-size: 9px !important;
+    width: 50%;
+  }
+  .clear-btn {
+    width: auto;
+  }
+}
+@media (max-width: 412px) {
+  .title {
+    font-size: 30px;
+  }
+  input {
+    width: 35%;
+  }
+  .add-form {
+    text-align: center;
+  }
+  .form-btn {
+    margin-right: 10px !important;
+    width: 25%;
+    text-align: center;
+  }
+}
+/* @media (max-width: 375px) {
+  .title {
+    font-size: 20px !important;
+  }
+} */
+@media (max-width: 414px) {
+  .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 430px) {
+  .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .title {
+    font-size: 33px;
+  }
+}
+/* another try on media query */
+/* don't write the height property the width is enough */
+/* @media (min-width: 475px) {
+}
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+} */

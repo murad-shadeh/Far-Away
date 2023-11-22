@@ -24,6 +24,7 @@ const Form = ({ handleAddItems }) => {
       <select
         value={quantity}
         onChange={(e) => setQuantity(Number(e.target.value))}
+        className="num-select"
       >
         {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
           <option key={num} value={num}>
@@ -38,7 +39,9 @@ const Form = ({ handleAddItems }) => {
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
-      <button name="button">Add</button>
+      <button name="button" className="form-btn">
+        Add
+      </button>
     </form>
   );
 };
